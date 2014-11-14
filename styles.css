@@ -5,7 +5,7 @@ body {
 }
 
 .wrapper {
-	width: 1100px;
+	width: 1200px;
 	margin: 0 auto;
 	display: inline;
 }
@@ -62,7 +62,7 @@ li {
 
 .content {
 	background-color: lightgray;
-	width: 500px;
+	width: 600px;
 /*	border: 1px solid gray;*/
 	float: left;
 	margin: 20px 10px;
@@ -83,19 +83,19 @@ li {
 	display: none;
 }*/
 
-.about-me {
+#about-me {
 /*	display:none;*/
 }
 
-.experience {
+#experience {
 /*	display:none;
 */}
 
-.coding-projects {
+#coding-projects {
 /*	display:none;*/
 }
 
-.links {
+#links {
 	color: #330033;
 }
 
@@ -106,7 +106,7 @@ li {
   position:fixed;
   left:0px;
   bottom:0px;
-  height:20px;
+  height:30px;
   padding: 5px;
   width:100%;
   text-align: right;
