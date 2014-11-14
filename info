@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+  <div id="wrap">
+
+<!--HEADER-->
+<div id="header">
+<header>
+<img src="http://i.imgur.com/0Z1hzpBl.jpg">
+
+<!--NAVIGATION BAR-->
+<div id="navigation">
+<div class="navlinks"><ul>
+  <li><a href="#nutshell">in a nutshell</a></li>
+  <li><a href="#timeline">a timeline</a></li>
+  <li><a href="#more">more</a></li>
+</ul>
+</header>
+</div>
+
+<!--MAINCONTENT--> 
+<div id="body">
+<div id="nutshell">
+<body>
+<article>
+<h2>who i am in a nutshell</h2>
+My name is Karynn and I am a tiny, twenty something New Yorker, an Aquarius, born in the Year of the Rat, and an ENFJ.
+
+<p>I sometimes view life through thick-framed glasses or a Nikon lens, and for the most part, through optimism. I'm a versatile foodie who's feasted on Michelin star meals to bugs off a rainforest tree - and who also loves good cup of coffee, a glass of Beaujolais or a dark stout, depending on my mood and/or company. I travel to discover, not to relax. My funny hubby and zany family are the center of my world.
+
+<p>I am a learning addict. I took classes in basic Mandarin, taught myself the guitar and ukulele, tried my hand at Samurai swordfighting, took a basic shooting class, joined an acrylics course, and signed up for a half marathon so I could learn how to run better. Now I want to learn how to code!</p>
+<button>
+<a href="#navigation" class="button">Back to Navigation</a>
+</button>
+</article>
+</div id>
+
+<div id="timeline">
+<article>
+<h2>a timeline</h2>
+  <h3>1985</h3> Born in a tiny town in Texas. Population: ~1000.
+  <h3>1988</h3> My parents decided to move our family to New York. Population: ~7 million.
+  <h3>1992</h3> I starred in my first school play. I was Reader #3.
+  <h3>1998</h3> My softball team won the "World Series" and I played in that year's All-Star league. I was the second base(wo)man.
+  <h3>2003</h3> I graduated from high school as a National Honor Society student, a Features editor for the school paper, and a one-time, never again tap dancer in our annual Christmas spectacular. 
+  <h3>2007</h3> After an awesome three and a half years, I graduated from Boston University with a Bachelor of Science in Communications and minor in Business Administration. Go Terriers!
+<p>That summer after graduation, I joined a young company called Communispace Corporation in Boston, MA, working on uncovering game-changing consumer insights for some of the biggest companies in the world, creating company culture and corporate social responsibility, and meeting some of my best friends.
+  <h3>2010</h3> Missing home, I moved back and joined a publishing start-up called Mediaplanet. I pitched and closed sales for the first time and ultimately published two special edition reports in USA Today and The Washington Post.  
+  <h3>2011</h3> Communispace opened up an office in Manhattan and I was asked to return, to help pioneer the new office with 7 other awesome people. Today, it's an office of 20, working with some of the hugest companies in NYC.
+  <h3>2014</h3> I got married to an awesome dude, who's a foot taller than me, loves math, and is my faithful companion on every adventure. 
+  <p>With the future in mind, I started thinking about where I wanted to be in 10 years. I job searched. I researched. I soul-searched.
+  <h3>Present</h3> I am currently discovering the magic and fun of coding. To be technical, I am creating a website for the General Assembly application process! And crossing my fingers.
+<p>
+<button>
+<a href="#navigation" class="button">Back to Navigation</a>
+</button>
+</article>
+</div id>
+
+<div id="more">
+<article>
+<h2>more</h2>
+<div class="bodylinks">  
+  <p><a href="http://www.linkedin.com/in/karynnelio" target=_blank">linkedin</a>
+  <p><a href="https://www.flickr.com/photos/124520799@N02/sets/72157645686683272/" target=_blank">photography</a></div>
+<p>
+<button>
+<a href="#navigation" class="button">Back to Navigation</a>
+</button>
+<article>
+</div id>
+<p>
+</body>
+
+
+<!--FOOTER-->
+<div id="footer">
+<footer>
+  <div class="navlinks"> 
+  <li><a href="mailto:karynn.elio@gmail.com?subject=Hello Karynn">contact me | </a></li> 
+  <li><a href="https://generalassemb.ly" target=_blank">GA Application 2014</a></li>
+</footer>
+</div>
+<p>
+  
+</body>
+</html>
+
+
+
+
+
+
+--------
+
+
+/* header */
+#header
+    header {
+      width: 100%;
+      text-align: center;
+      font-family: arial;
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+      width:450px;
+      height: auto;
+    }
+
+/* navigation */
+#NAVIGATION
+    navigation {
+      top: 0;
+      width: 100%;
+    }
+    ul {
+      padding: 10px;
+      background: gray
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    .navlinks a {
+      color: white;
+      text-decoration: none;
+    }
+
+/* body */    
+#body
+    body {
+      position: fixed;
+      margin: 0 auto;
+    }
+    .bodylinks a {
+      color: gray;
+      text-decoration: underline;
+      text-indent: 20px;
+    }
+    h2 {
+      font-size: 30px;
+      color:#778899;
+    }
+    h3 {
+      font-size: 15px;
+      text-decoration: bold;
+      color:#778899;
+    }
+    article {
+      max-width: 750px;
+      padding: 5px;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      font-family: arial;
+      color: gray;
+      background: white;
+    } 
+    .button {
+      text-decoration: none;
+      margin-right: auto;
+    }
+
+/* footer */
+#footer
+    footer {
+      position:fixed;
+      left:0px;
+      bottom:0px;
+      height:20px;
+      padding: 5px;
+      width:100%;
+      text-align: right;
+      font-family: arial;
+      background: gray;
+    }
+
